@@ -1,0 +1,26 @@
+# Hand-made decisions for German city rows no rule in cities.py resolves (administrative unions, districts OSM does
+# not know, wrong postal codes). Matched by exact name, postal code and region. The reason cites the evidence, usually
+# the address of the institution that uses the row. Reviewed 2026-10-02 (spdx-backend#746).
+name	postal_code	region_code	municipality_key	reason
+Eider	25779	DE-SH	01051049	Amt Eider; school address Schulstraße 33, 25779 Hennstedt
+Samtgemeinde Lengerich	49838	DE-NI	03454031	Samtgemeinde; school address Schulstraße 14, 49838 Lengerich
+Rhein-Mosel	56330	DE-RP	07137212	Verbandsgemeinde; school address Obermarkstraße 56, 56330 Kobern-Gondorf
+Trier-Land	54298	DE-RP	07235501	Verbandsgemeinde; school in Helenenberg, Welschbillig
+Heider Umland	25746	DE-SH	01051130	Amt; school address Holstenstraße 41, 25746 Wesseln
+Dohna-Müglitztal	01809	DE-SN	14628250	Verwaltungsgemeinschaft; school in Mühlbach, Müglitztal
+Elbe-Havel-Land	39524	DE-ST	15090500	Verbandsgemeinde; Grundschule Schönhausen, Schönhausen (Elbe)
+Heldburger Unterland	98663	DE-TH	16069056	Landgemeinde; school in Westhausen-Haubinda
+Schönow	16306	DE-BB	12060020	school address Schönow, Bernau, 16321 (not Schönow in Casekow)
+Kittlitz	02708	DE-SN	14626290	Ortsteil of Löbau
+Erlbach	08265	DE-SN	14523200	Ortsteil of Markneukirchen; school address 08258 Markneukirchen
+Zöschen	06254	DE-ST	15088205	Ortsteil of Leuna
+Wünschendorf	07570	DE-TH	16076094	Wünschendorf/Elster merged into Berga-Wünschendorf
+Worbis	37339	DE-TH	16061115	Ortsteil of Leinefelde-Worbis; school address Elisabethstraße 23
+Neustadt	37345	DE-TH	16075073	school is the Orlatal-Gymnasium, Pößnecker Str. 24, 07806 Neustadt an der Orla
+Trusetal	98596	DE-TH	16066074	Ortsteil of Brotterode-Trusetal
+Oberweißbach	98744	DE-TH	16073113	Oberweißbach merged into Schwarzatal; school address Schwarzatal-Oberweißbach
+Ohlstadt (VGem)	82439	DE-BY	09180127	Verwaltungsgemeinschaft Ohlstadt; seat Ohlstadt
+Neuhaus	19273	DE-NI	03355049	the municipality Amt Neuhaus
+Eschenbach in der Oberpfalz	92676	DE-BY	09374117	official name is the abbreviated Eschenbach i.d.OPf.
+Dolmar-Salzbrücke	98617	DE-TH	16066049	Verwaltungsgemeinschaft; Regelschule "Im Werratal", Kapellenstraße 16, 98617 Obermaßfeld-Grimmenthal (online)
+Satow	17209	DE-MV	13072093	wrong postal code; "Schule am See", Seestraße 9, 18239 Satow (online)

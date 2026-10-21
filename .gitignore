@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+# source downloads for the generator
+streets.csv
+AuszugGV3QAktuell.xlsx
